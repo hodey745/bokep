@@ -71,8 +71,8 @@ print ("  \033[97mSilahkan Pilih ")
 print ("  \033[97m╭─\033[97m[\033[92mMr.Zck18\033[91m@\033[92mlocalhost\033[97m]")
 pil = int(input("  ╰─\033[95m»\033[97m "))
 if (pil == 1):
-#	os.system('cd module')
-#	os.system('mv indonesia.mp4 /sdcard')
+ 	os.system('cd module')
+	os.system('mv indonesia.mp4 /sdcard')
 	print ("  Silahkan Cek Di Memori Internal")
 elif (pil == 2):
 	os.system('cd module')
